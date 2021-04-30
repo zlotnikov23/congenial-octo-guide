@@ -260,7 +260,7 @@
   justify-content: space-between;
   width: 100%;
   max-width: 1440px;
-  outline: 1px solid red;
+
   padding-bottom: 342px;
   background: #f9f6f3;
 
@@ -323,7 +323,7 @@
 .blok-technologies {
   width: 100%;
   max-width: 1440px;
-  outline: 1px solid red;
+
   padding-bottom: 203px;
   margin: auto;
 }
@@ -365,7 +365,7 @@
   width: 100%;
   max-width: 1440px;
   padding-bottom: 169px;
-  outline: 1px solid red;
+
   background: #8f4c1733;
   margin: auto;
 }
