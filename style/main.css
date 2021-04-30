@@ -1,0 +1,470 @@
+.bakground {
+  width: 100%;
+  max-width: 1440px;
+  padding: 120px 120px 75px 120px;
+  background: url(../picture/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  margin: auto;
+}
+
+.bakground__blok {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 10 0px;
+}
+.bakground__icons {
+  width: 88px;
+  height: 40px;
+}
+
+.bakground__button {
+  padding: 10px 21px;
+  font-size: 16px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.title {
+  padding: 12px 4px 0px 3px;
+  width: 100%;
+  max-width: 1080px;
+  margin-top: 78px;
+}
+.title__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 76px;
+  line-height: 98px;
+  color: #ffffff;
+}
+.title__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 37px;
+  color: #ffffff;
+  letter-spacing: 0.42pt;
+  padding-top: 35px;
+}
+.title__button {
+  width: 196px;
+  height: 57px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+  color: #ffffff;
+  background-color: #dd9d4c;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 56px;
+  letter-spacing: 0.32pt;
+  margin: auto;
+  margin-top: 56px;
+}
+.bakground__footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 605px;
+  margin: auto;
+  padding: 40px 0px;
+}
+.about-blok {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+  padding-left: 120px;
+  padding-top: 105px;
+  padding-bottom: 105px;
+  background: #8f4c1714;
+  margin: auto;
+}
+.about-blok__box-a {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.about-blok__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 43px;
+  line-height: 56px;
+}
+.about-blok__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.42pt;
+  padding-top: 31px;
+}
+.about-blok__button {
+  width: 196px;
+  height: 57px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+  color: #ffffff;
+  background-color: #dd9d4c;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 56px;
+  letter-spacing: 0.32pt;
+  margin: auto;
+  margin-top: 56px;
+}
+.about-blok__box-b {
+  width: 100%;
+  max-width: 600px;
+  height: 500px;
+  background: url(../picture/Rectangle5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+.middle-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  width: 1440px;
+  margin: auto;
+}
+
+.middle-box__blok-a {
+  width: 100%;
+  max-width: 776px;
+  height: 849px;
+  background: url(../picture/Img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+.middle-box__blok-b {
+  padding-left: 50px;
+  padding-right: 122px;
+}
+.middle-box__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 43px;
+  line-height: 56px;
+}
+.middle-box__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.42pt;
+  padding-top: 31px;
+}
+.middle-box__button {
+  width: 196px;
+  height: 57px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+  color: #ffffff;
+  background-color: #dd9d4c;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 56px;
+  letter-spacing: 0.32pt;
+  margin: auto;
+  margin-top: 56px;
+}
+.blok-middle-manage {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+  background: #8f4c1714;
+  padding-top: 90px;
+  padding-bottom: 91px;
+  margin: auto;
+}
+
+.blok-middle-layout {
+  width: 100%;
+  max-width: 800px;
+  height: 500px;
+  background: url(../picture/blok.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  border-radius: 11px;
+}
+.blok-middle-manage__contents {
+  padding-top: 100px;
+  padding-left: 120px;
+}
+.blok-middle-manage__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
+  color: #1a0800;
+}
+.blok-middle-manage__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.42px;
+  padding-top: 31px;
+}
+.blok-middle-manage-button {
+  width: 196px;
+  height: 57px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+  color: #ffffff;
+  background-color: #dd9d4c;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 56px;
+  letter-spacing: 0.32pt;
+  margin: auto;
+  margin-top: 56px;
+}
+.blok-chat {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+  outline: 1px solid red;
+  padding-bottom: 342px;
+  background: #f9f6f3;
+
+  margin: auto;
+}
+.blok-chat__chat-bakground {
+  width: 100%;
+  max-width: 632px;
+  padding-bottom: 600px;
+  background: url(../picture/pic7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  border-radius: 11px;
+}
+.blok-chat__content {
+  padding-bottom: 0px;
+}
+
+.blok-chat__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 51px;
+  line-height: 56px;
+  color: #1a0800;
+}
+.blok-chat__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.42px;
+  padding-top: 31px;
+}
+.blok-chat__chat-blok {
+  padding-top: 204px;
+  padding-right: 149px;
+}
+.blok-chat-button {
+  width: 196px;
+  height: 57px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+  color: #ffffff;
+  background-color: #dd9d4c;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 56px;
+  letter-spacing: 0.32pt;
+  margin: auto;
+  margin-top: 97px;
+}
+.blok-technologies {
+  width: 100%;
+  max-width: 1440px;
+  outline: 1px solid red;
+  padding-bottom: 203px;
+  margin: auto;
+}
+.blok-technologies__content {
+  padding-left: 120px;
+  padding-right: 133px;
+}
+.blok-technologies__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 58px;
+  padding-top: 110px;
+}
+.blok-technologies__methods-box {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 103px;
+}
+.blok-methods-of-action__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  padding-top: 23px;
+}
+.blok-methods-of-action__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.42px;
+  padding-top: 5px;
+}
+.blok-bakg-font {
+  width: 100%;
+  max-width: 1440px;
+  padding-bottom: 169px;
+  outline: 1px solid red;
+  background: #8f4c1733;
+  margin: auto;
+}
+.blok-bakg-font__content {
+  display: flex;
+  justify-content: space-evenly;
+}
+.blok-bakg-font__icon-dox {
+  display: flex;
+  padding-top: 157px;
+}
+
+.blok-bakg-font__box {
+  width: 100%;
+  max-width: 370px;
+  padding-bottom: 50px;
+}
+.blok-bakg-font__title {
+  padding-top: 114px;
+  padding-left: 120px;
+}
+.blok-bakg-font__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 43px;
+  line-height: 56px;
+}
+.blok-bakg-font__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.42px;
+  padding-left: 3px;
+}
+.blok-bakg-font__text-box {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.42px;
+}
+.blok-bakground-color {
+  width: 100%;
+  max-width: 1440px;
+  padding-bottom: 204px;
+  margin: auto;
+  background: url(../picture/stel.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.blok-bakground-color__box {
+  padding-top: 120px;
+  padding-left: 120px;
+}
+.blok-bakground-color__flag-box {
+  display: flex;
+  padding-left: 120px;
+  padding-top: 24px;
+}
+.blok-bakground-color__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.42px;
+  color: #ffffff;
+  padding-top: 57px;
+}
+.blok-bakground-color__English {
+  color: #ffffff;
+  padding-left: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.flag {
+  color: #cc0000;
+}
+.blok-bakground-color__еditions {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+  color: #ffffff99;
+  padding-left: 120px;
+  padding-top: 29px;
+}
+.blok-bakground-color__icon-text {
+  padding-bottom: 7px;
+}
