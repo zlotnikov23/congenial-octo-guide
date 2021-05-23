@@ -213,8 +213,8 @@
 
 .blok-middle-layout {
   width: 100%;
-  max-width: 800px;
-  height: 551px;
+  max-width: 648px;
+  height: 442px;
   background: url(../picture/blok.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -228,7 +228,7 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
-  max-width: 82%;
+  max-width: 73%;
   font-size: 48px;
   line-height: 56px;
   color: #1a0800;
@@ -237,7 +237,8 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  max-width: 98%;
+  font-size: 19px;
   line-height: 27px;
   letter-spacing: 0.42px;
   padding-top: 31px;
