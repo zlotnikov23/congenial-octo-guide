@@ -97,7 +97,7 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
-  font-size: 43px;
+  font-size: 76px;
   line-height: 56px;
 }
 .about-blok__text {
@@ -131,12 +131,11 @@
 .about-blok__box-b {
   width: 100%;
   max-width: 739px;
-  padding-bottom: 500px;
+  height: 500px;
   background: url(../picture/Rectangle5.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: bottom;
-  margin: auto;
 }
 .middle-box {
   display: flex;
@@ -150,12 +149,11 @@
 .middle-box__blok-a {
   width: 100%;
   max-width: 776px;
-  padding-bottom: 849px;
+  height: 849px;
   background: url(../picture/Img.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: bottom;
-  margin: auto;
 }
 .middle-box__blok-b {
   padding-left: 50px;
@@ -210,10 +208,10 @@
 .blok-middle-layout {
   width: 100%;
   max-width: 800px;
-  padding-bottom: 500px;
+  height: 500px;
   background: url(../picture/blok.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: bottom;
   border-radius: 11px;
 }
@@ -271,10 +269,10 @@
 .blok-chat__chat-bakground {
   width: 100%;
   max-width: 632px;
-  padding-bottom: 600px;
+  height: 522px;
   background: url(../picture/pic7.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: bottom;
   border-radius: 11px;
 }
@@ -418,12 +416,11 @@
 .blok-bakground-color {
   width: 100%;
   max-width: 1440px;
-  padding-bottom: 204px;
-  margin: auto;
+  height: 518px;
   background: url(../picture/stel.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right;
+  background-position: bottom;
 }
 
 .blok-bakground-color__box {
@@ -503,164 +500,132 @@
   .about-blok {
     flex-direction: column;
     text-align: center;
-    padding-left: 29px;
-    padding-bottom: 103px;
+    padding-left: 0;
+    padding-bottom: 15px;
     line-height: 16px;
-    margin: auto;
   }
   .about-blok__box-a {
-    padding-bottom: 90px;
-    padding-top: 90px;
+    padding: 15px;
   }
   .about-blok__title {
-    font-size: 43px;
-    line-height: 56px;
+    font-size: 42px;
+    line-height: 45px;
   }
   .about-blok__text {
-    font-size: 11px;
+    font-size: 22px;
+  }
+  .about-blok__button {
+    width: 100%;
   }
 
   .about-blok__box-b {
-    padding-top: 16px;
-    padding-bottom: 339px;
+    max-width: 100%;
   }
 
   .middle-box {
     flex-direction: column;
     text-align: center;
-    padding-bottom: 103px;
-    line-height: 16px;
   }
   .middle-box__blok-a {
-    padding-top: 16px;
-    padding-bottom: 339px;
+    max-width: 100%;
   }
   .middle-box__blok-b {
-    align-items: center;
+    padding: 15px;
   }
   .middle-box__title {
-    font-size: 43px;
-    line-height: 56px;
+    font-size: 42px;
+    line-height: 45px;
+    text-align: center;
   }
   .middle-box__text {
-    font-size: 16px;
-    line-height: 27px;
-    letter-spacing: 0.42pt;
-    padding-top: 31px;
+    font-size: 22px;
+    padding: 14px;
+  }
+  .blok-middle-manage-button {
+    width: 100%;
   }
   .blok-middle-manage {
     flex-direction: column;
     text-align: center;
-    padding-bottom: 103px;
-    line-height: 16px;
+    padding-bottom: 0px;
   }
   .blok-middle-manage__contents {
-    padding-top: 16px;
-    padding-left: 9px;
+    padding: 14px;
   }
   .blok-middle-manage__title {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: normal;
     font-size: 48px;
     line-height: 56px;
     color: #1a0800;
   }
   .blok-middle-manage__text {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
+    font-size: 22px;
     line-height: 27px;
-    letter-spacing: 0.42px;
-    padding-top: 31px;
+  }
+  .blok-middle-manage-button {
+    width: 100%;
   }
   .blok-middle-layout {
-    padding-bottom: 275px;
-    padding-top: 16px;
+    padding: 15px;
   }
   .blok-chat {
     flex-direction: column;
     text-align: center;
-    padding-bottom: 103px;
-    line-height: 16px;
+    padding: 0;
   }
   .blok-chat__chat-bakground {
-    padding-bottom: 205px;
-    padding-top: 16px;
+    padding: 15px;
+  }
+  .blok-chat-button {
+    width: 100%;
   }
   .blok-chat__chat-blok {
-    padding-top: 204px;
-    padding-right: 12px;
+    padding: 14px;
   }
   .blok-chat__title {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 51px;
-    line-height: 56px;
+    font-size: 42px;
+    line-height: 45px;
     color: #1a0800;
   }
   .blok-chat__text {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
+    font-size: 22px;
     line-height: 27px;
-    letter-spacing: 0.42px;
-    padding-top: 31px;
   }
   .blok-technologies {
     flex-direction: column;
     text-align: center;
-    padding-bottom: 103px;
-    line-height: 16px;
+    padding: 0;
   }
   .blok-technologies__content {
-    padding-left: 12px;
-    padding-right: 12px;
+    padding: 14px;
   }
   .blok-technologies__title {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    line-height: 58px;
-    padding-top: 110px;
+    font-size: 42px;
+    line-height: 45px;
+    padding: 14px;
   }
   .blok-technologies__methods-box {
     flex-direction: column;
     text-align: center;
-    padding-bottom: 103px;
     line-height: 16px;
   }
+
   .blok-methods-of-action {
-    padding-top: 38px;
+    padding: 14px;
   }
   .blok-methods-of-action__title {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
+    font-size: 22px;
     line-height: 27px;
-    padding-top: 23px;
-    letter-spacing: 0.42px;
     color: #1a0800;
   }
   .blok-methods-of-action__text {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
+    font-size: 22px;
     line-height: 27px;
-    letter-spacing: 0.42px;
-    padding-top: 5px;
+    padding: 14px;
   }
   .blok-bakg-font {
     flex-direction: column;
     text-align: center;
-    padding-bottom: 103px;
-    line-height: 16px;
+    padding: 0;
   }
   .blok-bakg-font__content {
     flex-direction: column;
@@ -673,26 +638,21 @@
   .blok-bakg-font__title {
     padding-top: 12px;
     padding-left: 12px;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: normal;
     font-size: 43px;
     line-height: 56px;
   }
 
   .blok-bakg-font__icon-dox {
     padding-top: 40px;
+    padding-left: 45px;
   }
   .blok-bakg-font__text {
-    font-size: 13px;
+    font-size: 22px;
   }
   .blok-bakg-font__text-box {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
+    font-size: 22px;
     line-height: 27px;
-    letter-spacing: 0.42px;
+    padding: 14px;
   }
   .blok-bakground-color {
     padding: 15px;
@@ -700,29 +660,26 @@
   .blok-bakground-color__box {
     text-align: center;
     flex-direction: column;
+    padding: 14px;
+  }
+  .blok-bakground-color__box-icons {
+    padding-right: 165px;
   }
 
   .blok-bakground-color__text {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 32px;
-    letter-spacing: 0.42px;
-    color: #ffffff;
-    padding-top: 57px;
+    font-size: 22px;
+    line-height: 27px;
   }
+
   .blok-bakground-color__flag-box {
-    padding-left: 281px;
+    padding-left: 34px;
   }
   .blok-bakground-color__еditions {
-    padding-left: 260px;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: normal;
+    padding-left: 34px;
     font-size: 12px;
     line-height: 22px;
-    letter-spacing: 0.25px;
-    color: #ffffff99;
+  }
+  .middle-box__button {
+    width: 100%;
   }
 }
