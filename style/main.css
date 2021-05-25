@@ -37,7 +37,8 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
-  max-width: 76%;
+  width: 100%;
+  max-width: 645px;
   font-size: 76px;
   line-height: 98px;
   color: #ffffff;
@@ -46,7 +47,8 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
-  max-width: 46%;
+  width: 100%;
+  max-width: 470px;
   font-size: 22px;
   line-height: 37px;
   color: #ffffff;
@@ -99,7 +101,8 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
-  max-width: 78%;
+  width: 100%;
+  max-width: 364px;
   font-size: 43px;
   line-height: 56px;
 }
@@ -107,7 +110,8 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
-  max-width: 74%;
+  width: 100%;
+  max-width: 470px;
   font-size: 16px;
   line-height: 27px;
   letter-spacing: 0.42pt;
@@ -167,7 +171,8 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
-  max-width: 75%;
+  width: 100%;
+  max-width: 478px;
   font-size: 43px;
   line-height: 56px;
 }
@@ -175,7 +180,8 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
-  max-width: 80%;
+  width: 100%;
+  max-width: 480px;
   font-size: 16px;
   line-height: 27px;
   letter-spacing: 0.42pt;
@@ -228,7 +234,8 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
-  max-width: 73%;
+  width: 100%;
+  max-width: 413px;
   font-size: 48px;
   line-height: 56px;
   color: #1a0800;
@@ -237,7 +244,8 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
-  max-width: 98%;
+  width: 100%;
+  max-width: 441px;
   font-size: 19px;
   line-height: 27px;
   letter-spacing: 0.42px;
@@ -291,7 +299,8 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
-  max-width: 79%;
+  width: 100%;
+  max-width: 451px;
   font-size: 51px;
   line-height: 56px;
   color: #1a0800;
@@ -301,7 +310,8 @@
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  max-width: 83%;
+  width: 100%;
+  max-width: 478px;
   line-height: 27px;
   letter-spacing: 0.42px;
   padding-top: 31px;
@@ -333,29 +343,30 @@
 .blok-technologies {
   width: 100%;
   max-width: 1440px;
-
-  padding-bottom: 203px;
   margin: auto;
-}
-.blok-technologies__content {
   padding-left: 120px;
-  padding-right: 133px;
+  padding-right: 120px;
+  padding-top: 137px;
+  padding-bottom: 110px;
+}
+
+.blok-technologies__content {
+  width: 100%;
+  max-width: 1444px;
 }
 .blok-technologies__title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
-  max-width: 48%;
+  width: 100%;
+  max-width: 463px;
   font-size: 50px;
   line-height: 58px;
-  padding-top: 110px;
-  padding-left: 107px;
 }
 .blok-technologies__methods-box {
   display: flex;
   justify-content: space-between;
   padding-top: 52px;
-  padding-left: 113px;
 }
 .blok-technologies-of-action {
   padding-right: 22px;
@@ -374,10 +385,39 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
+  width: 100%;
+  max-width: 326px;
   font-size: 16px;
   line-height: 27px;
   letter-spacing: 0.42px;
   padding-top: 5px;
+}
+.blok-methods-of-action__text-two {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.42px;
+  padding-top: 5px;
+  width: 100%;
+  max-width: 334px;
+}
+
+.blok-methods-of-action__text-three {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.42px;
+  padding-top: 5px;
+  width: 100%;
+  max-width: 334px;
+}
+.blok-methods-of-action__icons-effective {
+  width: 100%;
+  max-width: 52px;
 }
 .blok-bakg-font {
   width: 100%;
