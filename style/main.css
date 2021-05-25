@@ -766,12 +766,14 @@
   }
 
   .blok-bakground-color__flag-box {
-    padding-left: 121px;
+    width: 100%;
+    max-width: 45px;
+    margin: auto;
+    padding-left: 0;
   }
   .blok-bakground-color__еditions {
-    padding-left: 46px;
-    font-size: 12px;
-    line-height: 22px;
+    padding-left: 0;
+    text-align: center;
   }
   .middle-box__button {
     width: 100%;
