@@ -500,6 +500,8 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
+  width: 100%;
+  max-width: 339px;
   font-size: 16px;
   line-height: 32px;
   letter-spacing: 0.42px;
@@ -644,6 +646,7 @@
     text-align: center;
     padding: 0;
   }
+
   .blok-chat__chat-bakground {
     padding: 15px;
   }
@@ -652,7 +655,10 @@
   }
   .blok-chat__chat-blok {
     padding: 14px;
+    padding-top: 75px;
+    padding-left: 12px;
   }
+
   .blok-chat__title {
     font-size: 42px;
     line-height: 45px;
@@ -756,13 +762,14 @@
   .blok-bakground-color__text {
     font-size: 22px;
     line-height: 27px;
+    margin: auto;
   }
 
   .blok-bakground-color__flag-box {
-    padding-left: 135px;
+    padding-left: 121px;
   }
   .blok-bakground-color__еditions {
-    padding-left: 64px;
+    padding-left: 46px;
     font-size: 12px;
     line-height: 22px;
   }
