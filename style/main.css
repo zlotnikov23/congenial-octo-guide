@@ -318,7 +318,7 @@
   padding-top: 31px;
 }
 .blok-chat__chat-blok {
-  padding-top: 163px;
+  padding-top: 164px;
   padding-right: 149px;
   padding-left: 80px;
 }
@@ -536,7 +536,7 @@
   padding-bottom: 7px;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px), screen and(max-width:992px) {
   .bakground {
     padding: 15px;
   }
@@ -640,6 +640,7 @@
   }
   .blok-middle-layout {
     padding: 15px;
+    margin: auto;
   }
   .blok-chat {
     flex-direction: column;
@@ -649,10 +650,12 @@
 
   .blok-chat__chat-bakground {
     padding: 15px;
+    margin: auto;
   }
   .blok-chat-button {
     width: 100%;
   }
+
   .blok-chat__chat-blok {
     padding: 14px;
     padding-top: 75px;
