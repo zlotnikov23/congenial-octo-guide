@@ -743,10 +743,14 @@
 
   .blok-bakg-font__icon-dox {
     padding-top: 40px;
-    padding-left: 57px;
+    width: 100%;
+    max-width: 150px;
+    margin: auto;
   }
   .blok-bakg-font__text {
     font-size: 22px;
+    width: 100%;
+    max-width: 138px;
   }
   .blok-bakg-font__text-box {
     font-size: 22px;
